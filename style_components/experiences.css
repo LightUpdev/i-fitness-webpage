@@ -1,0 +1,104 @@
+.experiences {
+  display: flex;
+  margin: 3rem 15px;
+}
+
+.experiences {
+  display: flex;
+  width: 73%;
+  margin: 2rem 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.experiences > img {
+  display: block;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  margin: 15px 10px;
+  z-index: -1;
+}
+
+.why-i-fitness {
+  width: 50%;
+  margin: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+  align-items: flex-start;
+}
+
+.why-i-fitness h3,
+h1 {
+  font-weight: 00;
+}
+
+.why-i-fitness h1 {
+  font-family: "Barlow", roboto;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #000000;
+}
+.why-i-fitness h3 {
+  font-size: 20px;
+  font-family: "Rubik", roboto;
+  text-transform: none;
+  color: #000000;
+}
+
+.programs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.programs img {
+  width: 50px;
+  max-width: 50px;
+  height: auto;
+  max-height: auto;
+}
+.programs img:hover {
+  transform: scale(1.1, 1.1) skew(-5deg);
+}
+
+@media only screen and (max-width: 881px) {
+  .experiences {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .experiences > img {
+    width: 85%;
+    max-width: 85%;
+    margin: 15px 20px;
+  }
+  .why-i-fitness h3 {
+    font-size: 1rem;
+  }
+  .why-i-fitness h1 {
+    font-size: 1.6rem;
+  }
+  .programs h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+  .why-i-fitness h3 {
+    font-size: 0.9rem;
+  }
+  .why-i-fitness h1 {
+    font-size: 1rem;
+  }
+  .programs h2 {
+    font-size: 18px;
+  }
+}

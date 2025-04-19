@@ -1,0 +1,22 @@
+.carousel {
+  padding: 15px 0;
+}
+.carousel h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.carousel-item {
+  padding: 0px 15px;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 881px) {
+  .carousel h1{
+    font-size: 1.3rem;
+  }
+  .carousel-item {
+    padding: 0;
+    margin: 15px 0;
+  }
+}

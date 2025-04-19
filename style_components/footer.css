@@ -1,0 +1,239 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;
+  height: fit-content;
+  width: 88%;
+  background-color: #000000;
+  color: #ffffff;
+}
+.footer h1 {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.footer-info {
+  padding: 10px;
+  margin: 10px;
+  width: 25%;
+}
+.footer-info img {
+  width: 200px;
+}
+
+.footer-full-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height: 10vh;
+  width: 100%;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-full-width small {
+  margin-left: 6rem;
+}
+
+.footer-full-width .right-text {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-right: 6rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.icon-circle {
+  background-color: #d30404; /* orange */
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle:hover {
+  background-color: white;
+  color: #d30404;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.footer-quick-links {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-quick-links .links {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 3.5rem;
+}
+
+.footer-quick-links .links a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.footer-quick-links .links a:hover {
+  color: #d30404;
+}
+
+.working-hours {
+  width: 25%;
+  padding: 0 25px;
+  margin: 0 15px;
+}
+.group-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 3.5rem;
+}
+.hours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hours .days,
+.time {
+  text-transform: uppercase;
+}
+
+.footer-form {
+  width: 25%;
+}
+.footer-form h3 {
+  color: #d30404;
+}
+.footer-form h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.footer-form input {
+  padding: 15px 10px;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.form input:first-child {
+  margin-right: 10px;
+}
+.form {
+  display: flex;
+}
+.footer-form button {
+  background-image: linear-gradient(#755b54, #b40808);
+  padding: 15px 10px;
+  margin: 20px 10px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  color: #ffffff;
+  font-size: large;
+  text-transform: uppercase;
+}
+.footer-form button:hover {
+  background-image: linear-gradient(#b40808, #755b54);
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+  }
+  .footer h1 {
+    font-size: 1.1rem;
+  }
+  .footer h3 {
+    font-size: 0.9rem;
+  }
+  .footer > div {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-info img {
+    width: 150px;
+  }
+
+  .footer-quick-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .working-hours {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-form .form {
+    flex-direction: column;
+  }
+  .footer .footer-form .form input {
+    margin: 10px 15px;
+    width: 100%;
+  }
+
+  .footer-full-width {
+    flex-direction: column-reverse;
+  }
+
+  .footer-full-width small {
+    margin-left: 1rem;
+  }
+  .footer-full-width .right-text {
+    margin-right: 1rem;
+  }
+  .rule {
+    display: none;
+  }
+}

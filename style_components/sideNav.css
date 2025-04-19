@@ -1,0 +1,30 @@
+.side-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 881px) {
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    width: 50%;
+    max-width: 50%;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    padding: 15px 5px;
+    z-index: 10;
+  }
+
+  .side-nav a {
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 0;
+    color: white;
+  }
+  .side-nav a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
