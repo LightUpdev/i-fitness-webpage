@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../../../style_components/infiniteCardSlider.css";
 import CustomButton from "./customButton";
-import { IoBarbell } from "react-icons/io5";
 import { carouselCards } from "../../utils/carouselCard";
 
 const cards = carouselCards;
