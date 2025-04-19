@@ -5,7 +5,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // you can use any ico
 import "swiper/css";
 import "swiper/css/navigation";
 import "../../../style_components/infiniteCardSlider.css";
-import CustomButton from "./customButton";
 import { carouselCards } from "../../utils/carouselCard";
 
 const cards = carouselCards;
@@ -50,7 +49,7 @@ const ResponsiveSwiper = () => {
           return (
             <SwiperSlide key={index}>
               <div className="carousel-card">
-                <CustomButton>{<card.icon />}</CustomButton>
+                <div className="custom-button">{<card.icon />}</div>
                 <h3>{card.title}</h3>
                 <p>{card.text}</p>
               </div>

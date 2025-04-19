@@ -2,6 +2,7 @@ import { IoBarbell } from "react-icons/io5";
 import { PiFlowerLotusThin } from "react-icons/pi";
 import { FaBicycle } from "react-icons/fa";
 import { GiPunch, GiHandGrip  } from "react-icons/gi";
+import { MdSportsGymnastics } from "react-icons/md";
 
 export const carouselCards = [
   {
@@ -19,7 +20,7 @@ export const carouselCards = [
   {
     id: 3,
     title: "Tabata",
-    icon: IoBarbell,
+    icon: MdSportsGymnastics,
     text: "A high-intensity interval training (HIIT) workout, featuring exercises that lasts minutes.",
   },
   {
