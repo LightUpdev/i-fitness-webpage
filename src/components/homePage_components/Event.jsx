@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../style_components/event.css";
-import CustomButton from "./customButton";
 
 const Event = () => {
   return (
